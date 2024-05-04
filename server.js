@@ -2,9 +2,11 @@ const express = require("express");
 const bodyParser = require("body-parser")
 const path = require("path");
 
+require('dotenv').config();
+
 //create express app
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 // Static folder
 app.use(express.static(path.join(__dirname, "images")));
