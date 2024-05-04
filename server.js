@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser")
+const cors = require("cors");
 const path = require("path");
 
 require('dotenv').config();
@@ -25,6 +26,8 @@ app.use((req, res, next) => {
     next();
 });
 
+// Enable CORS for all routes
+app.use(cors());
 
 //controllers
 const hotelRoutes = require('./Routes/hotel.router');
