@@ -1,6 +1,6 @@
 "HotelProject"
 
-leaderteam : زياد مصطفي احمد علي 
+Teamleader : زياد مصطفي احمد علي 
 members of team :
  زين أشرف مطاوع خليل 
 خالد السيد محمود محمد 
